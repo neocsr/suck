@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7EE029813FD92DB00959B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE029713FD92DB00959B4B /* UIKit.framework */; };
+		B7EE029A13FD92DB00959B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE029913FD92DB00959B4B /* Foundation.framework */; };
+		B7EE029C13FD92DB00959B4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE029B13FD92DB00959B4B /* CoreGraphics.framework */; };
+		B7EE02A213FD92DB00959B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7EE02A013FD92DB00959B4B /* InfoPlist.strings */; };
+		B7EE02A513FD92DB00959B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EE02A413FD92DB00959B4B /* main.m */; };
+		B7EE02A813FD92DB00959B4B /* SuckAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EE02A713FD92DB00959B4B /* SuckAppDelegate.m */; };
+		B7EE02AB13FD92DB00959B4B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EE02A913FD92DB00959B4B /* MainWindow.xib */; };
+		B7EE02AE13FD92DC00959B4B /* SuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EE02AD13FD92DC00959B4B /* SuckViewController.m */; };
+		B7EE02B113FD92DC00959B4B /* SuckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EE02AF13FD92DC00959B4B /* SuckViewController.xib */; };
+		B7EE02B813FD92DC00959B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE029713FD92DB00959B4B /* UIKit.framework */; };
+		B7EE02B913FD92DC00959B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE029913FD92DB00959B4B /* Foundation.framework */; };
+		B7EE02BA13FD92DC00959B4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE029B13FD92DB00959B4B /* CoreGraphics.framework */; };
+		B7EE02C213FD92DC00959B4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7EE02C013FD92DC00959B4B /* InfoPlist.strings */; };
+		B7EE02C513FD92DC00959B4B /* SuckTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B7EE02C413FD92DC00959B4B /* SuckTests.h */; };
+		B7EE02C713FD92DC00959B4B /* SuckTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EE02C613FD92DC00959B4B /* SuckTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7EE02BB13FD92DC00959B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7EE028A13FD92DB00959B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7EE029213FD92DB00959B4B;
+			remoteInfo = Suck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7EE029313FD92DB00959B4B /* Suck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EE029713FD92DB00959B4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7EE029913FD92DB00959B4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7EE029B13FD92DB00959B4B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B7EE029F13FD92DB00959B4B /* Suck-Info.plist */ = {isa = PBXFileReference; path = "Suck-Info.plist"; sourceTree = "<group>"; };
+		B7EE02A113FD92DB00959B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7EE02A313FD92DB00959B4B /* Suck-Prefix.pch */ = {isa = PBXFileReference; path = "Suck-Prefix.pch"; sourceTree = "<group>"; };
+		B7EE02A413FD92DB00959B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7EE02A613FD92DB00959B4B /* SuckAppDelegate.h */ = {isa = PBXFileReference; path = SuckAppDelegate.h; sourceTree = "<group>"; };
+		B7EE02A713FD92DB00959B4B /* SuckAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuckAppDelegate.m; sourceTree = "<group>"; };
+		B7EE02AA13FD92DB00959B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B7EE02AC13FD92DC00959B4B /* SuckViewController.h */ = {isa = PBXFileReference; path = SuckViewController.h; sourceTree = "<group>"; };
+		B7EE02AD13FD92DC00959B4B /* SuckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuckViewController.m; sourceTree = "<group>"; };
+		B7EE02B013FD92DC00959B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SuckViewController.xib; sourceTree = "<group>"; };
+		B7EE02B713FD92DC00959B4B /* SuckTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuckTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EE02BF13FD92DC00959B4B /* SuckTests-Info.plist */ = {isa = PBXFileReference; path = "SuckTests-Info.plist"; sourceTree = "<group>"; };
+		B7EE02C113FD92DC00959B4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B7EE02C313FD92DC00959B4B /* SuckTests-Prefix.pch */ = {isa = PBXFileReference; path = "SuckTests-Prefix.pch"; sourceTree = "<group>"; };
+		B7EE02C413FD92DC00959B4B /* SuckTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuckTests.h; sourceTree = "<group>"; };
+		B7EE02C613FD92DC00959B4B /* SuckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuckTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7EE029013FD92DB00959B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EE029813FD92DB00959B4B /* UIKit.framework in Frameworks */,
+				B7EE029A13FD92DB00959B4B /* Foundation.framework in Frameworks */,
+				B7EE029C13FD92DB00959B4B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EE02B313FD92DC00959B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EE02B813FD92DC00959B4B /* UIKit.framework in Frameworks */,
+				B7EE02B913FD92DC00959B4B /* Foundation.framework in Frameworks */,
+				B7EE02BA13FD92DC00959B4B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7EE028813FD92DB00959B4B = {
+			isa = PBXGroup;
+			children = (
+				B7EE029D13FD92DB00959B4B /* Suck */,
+				B7EE02BD13FD92DC00959B4B /* SuckTests */,
+				B7EE029613FD92DB00959B4B /* Frameworks */,
+				B7EE029413FD92DB00959B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7EE029413FD92DB00959B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE029313FD92DB00959B4B /* Suck.app */,
+				B7EE02B713FD92DC00959B4B /* SuckTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7EE029613FD92DB00959B4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE029713FD92DB00959B4B /* UIKit.framework */,
+				B7EE029913FD92DB00959B4B /* Foundation.framework */,
+				B7EE029B13FD92DB00959B4B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7EE029D13FD92DB00959B4B /* Suck */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE02A613FD92DB00959B4B /* SuckAppDelegate.h */,
+				B7EE02A713FD92DB00959B4B /* SuckAppDelegate.m */,
+				B7EE02A913FD92DB00959B4B /* MainWindow.xib */,
+				B7EE02AC13FD92DC00959B4B /* SuckViewController.h */,
+				B7EE02AD13FD92DC00959B4B /* SuckViewController.m */,
+				B7EE02AF13FD92DC00959B4B /* SuckViewController.xib */,
+				B7EE029E13FD92DB00959B4B /* Supporting Files */,
+			);
+			path = Suck;
+			sourceTree = "<group>";
+		};
+		B7EE029E13FD92DB00959B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE029F13FD92DB00959B4B /* Suck-Info.plist */,
+				B7EE02A013FD92DB00959B4B /* InfoPlist.strings */,
+				B7EE02A313FD92DB00959B4B /* Suck-Prefix.pch */,
+				B7EE02A413FD92DB00959B4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7EE02BD13FD92DC00959B4B /* SuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE02C413FD92DC00959B4B /* SuckTests.h */,
+				B7EE02C613FD92DC00959B4B /* SuckTests.m */,
+				B7EE02BE13FD92DC00959B4B /* Supporting Files */,
+			);
+			path = SuckTests;
+			sourceTree = "<group>";
+		};
+		B7EE02BE13FD92DC00959B4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7EE02BF13FD92DC00959B4B /* SuckTests-Info.plist */,
+				B7EE02C013FD92DC00959B4B /* InfoPlist.strings */,
+				B7EE02C313FD92DC00959B4B /* SuckTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7EE029213FD92DB00959B4B /* Suck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EE02CA13FD92DC00959B4B /* Build configuration list for PBXNativeTarget "Suck" */;
+			buildPhases = (
+				B7EE028F13FD92DB00959B4B /* Sources */,
+				B7EE029013FD92DB00959B4B /* Frameworks */,
+				B7EE029113FD92DB00959B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Suck;
+			productName = Suck;
+			productReference = B7EE029313FD92DB00959B4B /* Suck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7EE02B613FD92DC00959B4B /* SuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7EE02CD13FD92DC00959B4B /* Build configuration list for PBXNativeTarget "SuckTests" */;
+			buildPhases = (
+				B7EE02B213FD92DC00959B4B /* Sources */,
+				B7EE02B313FD92DC00959B4B /* Frameworks */,
+				B7EE02B413FD92DC00959B4B /* Resources */,
+				B7EE02B513FD92DC00959B4B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7EE02BC13FD92DC00959B4B /* PBXTargetDependency */,
+			);
+			name = SuckTests;
+			productName = SuckTests;
+			productReference = B7EE02B713FD92DC00959B4B /* SuckTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7EE028A13FD92DB00959B4B /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B7EE028D13FD92DB00959B4B /* Build configuration list for PBXProject "Suck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B7EE028813FD92DB00959B4B;
+			productRefGroup = B7EE029413FD92DB00959B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7EE029213FD92DB00959B4B /* Suck */,
+				B7EE02B613FD92DC00959B4B /* SuckTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7EE029113FD92DB00959B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EE02A213FD92DB00959B4B /* InfoPlist.strings in Resources */,
+				B7EE02AB13FD92DB00959B4B /* MainWindow.xib in Resources */,
+				B7EE02B113FD92DC00959B4B /* SuckViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EE02B413FD92DC00959B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EE02C213FD92DC00959B4B /* InfoPlist.strings in Resources */,
+				B7EE02C513FD92DC00959B4B /* SuckTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B7EE02B513FD92DC00959B4B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7EE028F13FD92DB00959B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EE02A513FD92DB00959B4B /* main.m in Sources */,
+				B7EE02A813FD92DB00959B4B /* SuckAppDelegate.m in Sources */,
+				B7EE02AE13FD92DC00959B4B /* SuckViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EE02B213FD92DC00959B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EE02C713FD92DC00959B4B /* SuckTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7EE02BC13FD92DC00959B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7EE029213FD92DB00959B4B /* Suck */;
+			targetProxy = B7EE02BB13FD92DC00959B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7EE02A013FD92DB00959B4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7EE02A113FD92DB00959B4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B7EE02A913FD92DB00959B4B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7EE02AA13FD92DB00959B4B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B7EE02AF13FD92DC00959B4B /* SuckViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7EE02B013FD92DC00959B4B /* en */,
+			);
+			name = SuckViewController.xib;
+			sourceTree = "<group>";
+		};
+		B7EE02C013FD92DC00959B4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7EE02C113FD92DC00959B4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7EE02C813FD92DC00959B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7EE02C913FD92DC00959B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B7EE02CB13FD92DC00959B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Suck/Suck-Prefix.pch";
+				INFOPLIST_FILE = "Suck/Suck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B7EE02CC13FD92DC00959B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Suck/Suck-Prefix.pch";
+				INFOPLIST_FILE = "Suck/Suck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B7EE02CE13FD92DC00959B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Suck.app/Suck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuckTests/SuckTests-Prefix.pch";
+				INFOPLIST_FILE = "SuckTests/SuckTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B7EE02CF13FD92DC00959B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Suck.app/Suck";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SuckTests/SuckTests-Prefix.pch";
+				INFOPLIST_FILE = "SuckTests/SuckTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7EE028D13FD92DB00959B4B /* Build configuration list for PBXProject "Suck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EE02C813FD92DC00959B4B /* Debug */,
+				B7EE02C913FD92DC00959B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7EE02CA13FD92DC00959B4B /* Build configuration list for PBXNativeTarget "Suck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EE02CB13FD92DC00959B4B /* Debug */,
+				B7EE02CC13FD92DC00959B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7EE02CD13FD92DC00959B4B /* Build configuration list for PBXNativeTarget "SuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EE02CE13FD92DC00959B4B /* Debug */,
+				B7EE02CF13FD92DC00959B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7EE028A13FD92DB00959B4B /* Project object */;
+}
