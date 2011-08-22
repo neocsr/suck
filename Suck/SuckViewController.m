@@ -43,7 +43,7 @@
     UITapGestureRecognizer *singleFingerTap = 
     [[UITapGestureRecognizer alloc] initWithTarget:self 
                                             action:@selector(suckView:)];
-    singleFingerTap.cancelsTouchesInView = NO;
+    //singleFingerTap.cancelsTouchesInView = NO;
     [container addGestureRecognizer:singleFingerTap];
     [singleFingerTap release];
     

@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		B767882914029E4300577141 /* squares_200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = B767882714029E4300577141 /* squares_200x200.png */; };
 		B767882A14029E4300577141 /* squares_transparent_200x200.png in Resources */ = {isa = PBXBuildFile; fileRef = B767882814029E4300577141 /* squares_transparent_200x200.png */; };
+		B76788331402B08200577141 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = B767882D1402B08200577141 /* Icon-72.png */; };
+		B76788341402B08200577141 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = B767882E1402B08200577141 /* Icon-Small-50.png */; };
+		B76788351402B08200577141 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B767882F1402B08200577141 /* Icon-Small.png */; };
+		B76788361402B08200577141 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B76788301402B08200577141 /* Icon-Small@2x.png */; };
+		B76788371402B08200577141 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B76788311402B08200577141 /* Icon.png */; };
+		B76788381402B08200577141 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B76788321402B08200577141 /* Icon@2x.png */; };
 		B7EE029813FD92DB00959B4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE029713FD92DB00959B4B /* UIKit.framework */; };
 		B7EE029A13FD92DB00959B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE029913FD92DB00959B4B /* Foundation.framework */; };
 		B7EE029C13FD92DB00959B4B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7EE029B13FD92DB00959B4B /* CoreGraphics.framework */; };
@@ -39,6 +45,12 @@
 /* Begin PBXFileReference section */
 		B767882714029E4300577141 /* squares_200x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squares_200x200.png; sourceTree = "<group>"; };
 		B767882814029E4300577141 /* squares_transparent_200x200.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squares_transparent_200x200.png; sourceTree = "<group>"; };
+		B767882D1402B08200577141 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		B767882E1402B08200577141 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		B767882F1402B08200577141 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		B76788301402B08200577141 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		B76788311402B08200577141 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B76788321402B08200577141 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		B7EE029313FD92DB00959B4B /* Suck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EE029713FD92DB00959B4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B7EE029913FD92DB00959B4B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B767882C1402B08200577141 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B767882D1402B08200577141 /* Icon-72.png */,
+				B767882E1402B08200577141 /* Icon-Small-50.png */,
+				B767882F1402B08200577141 /* Icon-Small.png */,
+				B76788301402B08200577141 /* Icon-Small@2x.png */,
+				B76788311402B08200577141 /* Icon.png */,
+				B76788321402B08200577141 /* Icon@2x.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
 		B7EE028813FD92DB00959B4B = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +142,7 @@
 		B7EE029D13FD92DB00959B4B /* Suck */ = {
 			isa = PBXGroup;
 			children = (
+				B767882C1402B08200577141 /* Icons */,
 				B7EE02A613FD92DB00959B4B /* SuckAppDelegate.h */,
 				B7EE02A713FD92DB00959B4B /* SuckAppDelegate.m */,
 				B7EE02A913FD92DB00959B4B /* MainWindow.xib */,
@@ -233,6 +259,12 @@
 				B7EE02B113FD92DC00959B4B /* SuckViewController.xib in Resources */,
 				B767882914029E4300577141 /* squares_200x200.png in Resources */,
 				B767882A14029E4300577141 /* squares_transparent_200x200.png in Resources */,
+				B76788331402B08200577141 /* Icon-72.png in Resources */,
+				B76788341402B08200577141 /* Icon-Small-50.png in Resources */,
+				B76788351402B08200577141 /* Icon-Small.png in Resources */,
+				B76788361402B08200577141 /* Icon-Small@2x.png in Resources */,
+				B76788371402B08200577141 /* Icon.png in Resources */,
+				B76788381402B08200577141 /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
