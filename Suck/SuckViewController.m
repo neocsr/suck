@@ -78,7 +78,7 @@
 - (void)suckView:(UITapGestureRecognizer *)recognizer {
     NSLog(@"%s", __FUNCTION__);
     
-    CGPoint location = [recognizer locationInView:[recognizer.view superview]];
+    CGPoint location = [recognizer locationInView:recognizer.view];
     NSLog(@"Point (%.2f, %.2f)", location.x, location.y);
 
     [testView setAlpha:0];
